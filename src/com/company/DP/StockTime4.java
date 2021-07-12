@@ -18,8 +18,8 @@ package com.company.DP;
     dp[i][2]= max(dp[i-1][2],dp[i-1][1]+prices[i])
     ...
     for j=0; j<2*k-1; j+=2
-    dp[i][j+1]=,ax(dp[i-1][j+1],dp[i-1][j]-prices[i])
-    dp[i][j+2]=,ax(dp[i-1][j+2],dp[i-1][j+1]+prices[i])
+    dp[i][j+1]=max(dp[i-1][j+1],dp[i-1][j]-prices[i])
+    dp[i][j+2]=max(dp[i-1][j+2],dp[i-1][j+1]+prices[i])
  初始化：
     dp[0][0] = 0
     for j=1;j<2*k;j+=2
