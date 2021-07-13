@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.stockProblem;
 
 /**
  最多可以完成k笔交易

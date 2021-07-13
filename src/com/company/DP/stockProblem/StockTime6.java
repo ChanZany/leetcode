@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.stockProblem;
 
 /**买卖股票的最佳时机含手续费
  你可以⽆限次地完成交易，但是你每笔交易都需要付⼿续费

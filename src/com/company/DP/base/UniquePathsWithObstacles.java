@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.base;
 
 /**
  * @Author ChanZany

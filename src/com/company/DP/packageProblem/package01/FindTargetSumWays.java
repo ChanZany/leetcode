@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.packageProblem.package01;
 
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ public class FindTargetSumWays {
     //转移：dp[j]= dp[j-1](当前取1) + dp[j-2](当前取2)....
     //    简化后为: dp[j] += dp[j-nums[i]], j>=nums[i]
     //初始化：dp[0]=1，装满容量为0的背包，只有一种方法，装0件物品
-    //遍历：对于01背包问题，物品(nums)外循环，容量(target)内循环且逆序
+    //遍历：对于01背包问题，物品(nums)外循环，背包(target)内循环且逆序
     public int findTargetSumWays(int[] nums, int target) {
         int sum = Arrays.stream(nums).sum();
         if (target>sum) return 0;

@@ -1,9 +1,10 @@
-package com.company.DP;
+package com.company.DP.base;
 
 /**
  * @Author ChanZany
  * @Date 2021/7/7 9:17
  * @Version 1.0
+  不同的二叉搜索树数目
  */
 public class NumTrees {
     public int numTrees(int n) {

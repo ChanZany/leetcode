@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.packageProblem.packageFull;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @Author ChanZany
  * @Date 2021/7/8 17:10
  * @Version 1.0
-01背包问题，内部容量的循环是逆序的，是为了保证每个物品仅被添加一次，而完全背包的物品是可以添加多次的，所以要正序遍历
+01背包问题，内部背包容量的循环是逆序的，是为了保证每个物品仅被添加一次，而完全背包的物品是可以添加多次的，所以要正序遍历
  */
 public class PackageFull {
     int[] W = {1,3,4};

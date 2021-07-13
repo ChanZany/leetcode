@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.base;
 
 /**
  * @Author ChanZany
@@ -6,7 +6,7 @@ package com.company.DP;
  * @Version 1.0
  */
 public class MinCostClimbingStairs {
-    //题目：没当你爬上一个阶梯都要花费对应的体力值
+    //题目：每当你爬上一个阶梯都要花费对应的体力值
     //1.定义：dp[i]表示爬到第i个阶梯的最低花费
     //2.初始化：dp[0]=0,dp[1]=0
     //3.例子：dp[2]=min(dp[0]+cost[2],dp[1]+cost[2]),dp[3]= min(dp[2]+cost[2],dp[1]+cost[1])

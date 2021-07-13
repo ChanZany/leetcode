@@ -1,8 +1,7 @@
-package com.company.DP;
+package com.company.DP.packageProblem;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * 多重背包：

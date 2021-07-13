@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.stockProblem;
 
 /**
  你可以尽可能地完成更多的交易, 卖出股票后，你⽆法在第⼆天买⼊股票 (即冷冻期为 1 天)。

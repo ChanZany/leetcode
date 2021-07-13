@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.packageProblem.packageFull;
 
 import java.util.Arrays;
 

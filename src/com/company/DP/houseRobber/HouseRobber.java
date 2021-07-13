@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.houseRobber;
 
 /**
  如果两间相邻的房屋在同一晚上被小偷闯入，系统会自动报警。

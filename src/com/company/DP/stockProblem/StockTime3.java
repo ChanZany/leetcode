@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.stockProblem;
 
 /**
  你最多可以完成两笔交易。

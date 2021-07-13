@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.packageProblem.packageFull;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  * @Author ChanZany
  * @Date 2021/7/9 15:13
  * @Version 1.0
- * 分析：单词就是物品，背包就是s,单词能否组成字符串s，就是问物品能不能把背包装满，而单词可以是一个或多个，所以是多重背包问题
+ * 分析：单词就是物品，背包就是s,单词能否组成字符串s，就是问物品能不能把背包装满，而单词可以是一个或多个，所以是完全背包问题
  * 定义：对于字符串s[0:j],dp[j]=true表示可以将之拆分为一个或多个字典中出现的单词
  * 转移：dp[j] |= dp[j-dict[i]]
  * 初始化：dp[0]=true，无意义，为了递推成功

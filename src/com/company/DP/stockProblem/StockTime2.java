@@ -1,4 +1,4 @@
-package com.company.DP;
+package com.company.DP.stockProblem;
 
 /**
  设计一个算法来计算你所能获取的最大利润。你可以尽可能地完成更多的交易（多次买卖一支股票）。
